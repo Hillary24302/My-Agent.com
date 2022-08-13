@@ -1,0 +1,177 @@
+.write {
+    padding-top: 50px;
+    margin-bottom: 10rem;
+}
+.writeTitle {
+    font-size: 32px;
+    font-weight: 700;
+    color: #303a4b;
+    text-align: center;
+    
+}
+.writeForm {
+    position: relative;
+
+}
+.writeFormGroup {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+.writeIcon {
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: rgb(121,  118, 118);
+    cursor: pointer;
+    margin-top: 1.5rem;
+}
+.writeInput {
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+}
+.writeInput:focus {
+    outline: none;
+}
+.writeText {
+    font-size: 20px;
+    height: 100vp;
+}
+.writeSubmit {
+    position: absolute;
+    left: 50%;
+    color: white;
+    background-color: teal;
+    padding: 10px 200px;
+    margin-left: -200px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.writeTitle {
+    padding: 30px;
+    color: #f77f00;
+}
+.writetitlespace {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.writespace {
+    padding: 0 0 0px 0;
+    margin-top: 50px;
+    border-bottom: 2px solid re;
+}
+.spaceinput {
+    font-size: 16px;
+    padding: 20px;
+    width: 85vw;
+    border: none;
+}
+.writetext {
+    font-size: 16px;
+    height: 100vp; 
+    padding: 12px;
+    width: 83vw;
+    align-items: center;
+    border: none;
+}
+.writerow {
+    display: flex;
+    justify-content: space-around;
+}
+.writeselection {
+    display: flex;
+    margin-top: 30px;
+}
+.writelebel {
+    color: rgb(133, 130, 130);
+    font-size: 20px;
+}
+.selectinput {
+    padding: 10px 50px;
+    margin: 3px;
+    border: none;
+}
+.writelabelfor {
+    font-size: 18px;
+}
+.writeradio {
+    margin-right: 15px;
+    margin-left: 30px;
+}
+.writecheck {
+    display: flex;
+    
+    margin-top: 30px;
+}
+.selectinput > option {
+    font-size: 16px;
+    width: 30vw;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    border: 2px solid blue;
+}
+.selectoptions {
+    border-bottom: 2px solid rd;
+    margin-top: -15px;
+}
+.selectform {
+    display: flex;
+}
+.writecontact {
+    display: flex;
+    justify-content: space-around;
+    
+    margin-top: 100px;
+}
+.selectinputt {
+    padding: 10px 70px;
+    margin: 3px;
+    border: none;
+}
+.writephone {
+    display: flex;
+    justify-content: space-around;
+    
+    margin-top: 100px;
+}
+.writeprice {
+    font: inherit;
+    color: currentColor;
+    border: 0;
+    margin: 0;
+    padding: 6px 0 7px;
+    display: block;
+    min-width: 0;
+    box-sizing: content-box;
+    background: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.priceinput {
+    padding: 1px 2px;
+    border: none;
+    width: 30vw;
+    font-size: 16px;
+    border-bottom: 1px solid lightgray;
+}
+@media only screen and (max-width: 400px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+}
+
